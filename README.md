@@ -1,1 +1,1 @@
-This repository based on offical version and add some persional code. Just for learning.
+This repository based on official version and add some personal code. Just for learning.
