@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/contextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/imageViewTop"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        android:src="@drawable/muwentiao" />
+
+    <ImageView
+        android:id="@+id/imageViewBottom"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/muwentiao" />
+
+</FrameLayout>
